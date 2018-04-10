@@ -51,6 +51,7 @@ class PostContainer extends Component {
     	return (
       	<div className='container'>
     		<PostInput onSubmitHandler={this.insertPost.bind(this)}></PostInput>
+    		{result}
       	</div>
     );
   }
