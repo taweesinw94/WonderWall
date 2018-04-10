@@ -50,8 +50,7 @@ class PostContainer extends Component {
   		}
     	return (
       	<div className='container'>
-    		<PostInput onSubmitHandler={this.insertPost.bind(this)} current_message={this.state.current_message}></PostInput>
-    		{result}
+    		<PostInput onSubmitHandler={this.insertPost.bind(this)}></PostInput>
       	</div>
     );
   }
